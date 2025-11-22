@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test:playground": "tsc && node dist/playground/test.js"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2",
+    "tsx": "^4.20.6"
+  },
+  
+    "lint-staged": {
+      "**/*": "prettier --write --ignore-unknown"
+    }
+  
+}
